@@ -1,4 +1,4 @@
-State,County,Date Detected,HPAI Strain,Bird Species,WOAH Classification,Sampling Method,Submitting Agency
+State,County,Outbreak Date,HPAI Strain,Bird Species,WOAH Classification,Sampling Method,Submitting Agency
 California,Yolo,2/10/2025,EA H5,Western gull,Wild bird,Morbidity/Mortality,UC Davis
 North Carolina,Buncombe,2/10/2025,EA H5,Cackling goose,Captive wild bird,Morbidity/Mortality,Private (non-government) submission
 Louisiana,Cameron,2/10/2025,EA/AM H5N1,Blue-winged teal,Wild bird,Live bird,SCWDS
@@ -1287,8 +1287,8 @@ Wyoming,Goshen,11/19/2024,EA H5N1,Green-winged teal,Wild bird,Hunter harvest,NWD
 Wyoming,Goshen,11/19/2024,EA H5,Green-winged teal,Wild bird,Hunter harvest,NWDP
 California,Fresno,11/19/2024,EA H5N1,Rock pigeon,Wild bird,Agency harvest,NWDP
 California,Fresno,11/19/2024,EA/AM H5N1,Rock pigeon,Wild bird,Agency harvest,NWDP
-Montana,Flathead,11/18/2024,EA/AM H5N1,Great horned owl,Wild bird,Morbidity/Mortality,MT FWP 
-Montana,Flathead,11/18/2024,EA/AM H5N1,Bald eagle,Wild bird,Morbidity/Mortality,MT FWP 
+Montana,Flathead,11/18/2024,EA/AM H5N1,Great horned owl,Wild bird,Morbidity/Mortality,MT FWP
+Montana,Flathead,11/18/2024,EA/AM H5N1,Bald eagle,Wild bird,Morbidity/Mortality,MT FWP
 Oregon,Marion,11/18/2024,EA/AM H5N1,Great horned owl,Wild bird,Morbidity/Mortality,OR DFW
 Utah,Cache,11/15/2024,EA H5,Rock pigeon,Wild bird,Agency harvest,NWDP
 Washington,King,11/15/2024,EA H5,Red-breasted goose,Captive wild bird,Morbidity/Mortality,Private (non-government) submission
@@ -2556,7 +2556,7 @@ New Jersey,Ocean,4/9/2024,EA/AM H5N1,Bufflehead,Wild bird,Morbidity/Mortality,NW
 New Jersey,Ocean,4/9/2024,EA/AM H5N1,Bufflehead,Wild bird,Morbidity/Mortality,NWDP
 New Jersey,Ocean,4/9/2024,EA/AM H5N1,Bufflehead,Wild bird,Morbidity/Mortality,NWDP
 Pennsylvania,Cumberland,4/9/2024,EA H5N1,Mallard,Wild bird,Live bird,NWDP
-Illinois,Effingham,3/28/2024,EA/AM H5N1,Snow goose,Wild bird,Morbidity/Mortality,IL DNR 
+Illinois,Effingham,3/28/2024,EA/AM H5N1,Snow goose,Wild bird,Morbidity/Mortality,IL DNR
 North Carolina,Mecklenburg,3/27/2024,EA/AM H5N1,Black vulture,Captive wild bird,Morbidity/Mortality,Private (non-government) submission
 Indiana,Wabash,3/27/2024,EA/AM H5N1,Canada goose,Wild bird,Morbidity/Mortality,IN DNR
 New York,Rensselaer,3/27/2024,EA/AM H5N1,Red-tailed hawk,Wild bird,Morbidity/Mortality,NY DEC
@@ -3493,7 +3493,7 @@ Colorado,Weld,12/13/2023,EA/AM H5N1,Great horned owl,Captive wild bird,Morbidity
 California,Sacramento,12/13/2023,EA/AM H5N1,Greater white-fronted goose,Wild bird,Morbidity/Mortality,CA DFW/CAHFS
 California,Marin,12/13/2023,EA H5N1,Glaucous gull,Wild bird,Morbidity/Mortality,CA DFW/CAHFS
 California,Butte,12/13/2023,EA H5N1,American white pelican,Wild bird,Morbidity/Mortality,CA DFW/CAHFS
-California,San Mateo ,12/13/2023,EA/AM H5N1,Snow goose,Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+California,San Mateo,12/13/2023,EA/AM H5N1,Snow goose,Wild bird,Morbidity/Mortality,CA DFW/CAHFS
 California,San Mateo,12/13/2023,EA H5N1,Canada goose,Wild bird,Morbidity/Mortality,CA DFW/CAHFS
 California,Glenn,12/13/2023,EA/AM H5N1,Snow goose,Wild bird,Morbidity/Mortality,CA DFW/CAHFS
 California,Butte,12/13/2023,EA/AM H5N1,Snow goose,Wild bird,Morbidity/Mortality,CA DFW/CAHFS
@@ -4725,15 +4725,15 @@ Connecticut,Hartford,9/6/2023,EA H5N1,Mallard,Wild bird,Live bird,NWDP
 Connecticut,Hartford,9/6/2023,EA/AM H5N1,Mallard,Wild bird,Live bird,NWDP
 Connecticut,Hartford,9/6/2023,EA H5N1,Mallard,Wild bird,Live bird,NWDP
 Connecticut,Hartford,9/6/2023,EA H5N1,Mallard,Wild bird,Live bird,NWDP
-North Dakota,Eddy,8/31/2023,EA/AM H5N1,Bald eagle,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository 
-North Dakota,Divide,8/31/2023,EA H5N1,Bald eagle,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository 
-Mississippi,Harrison,8/31/2023,EA H5N1,Bald eagle,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository 
-Louisiana,Caddo,8/31/2023,EA H5N1,Bald eagle,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository 
-South Dakota,Butte,8/31/2023,EA H5N1,Bald eagle,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository 
-North Dakota,Towner,8/31/2023,EA/AM H5N1,Bald eagle,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository 
-South Dakota,Brown,8/31/2023,EA H5,Golden eagle,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository 
-South Dakota,Charles Mix,8/31/2023,EA/AM H5N1,Bald eagle,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository 
-Idaho,Lemhi,8/31/2023,EA H5N1,Bald eagle,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository 
+North Dakota,Eddy,8/31/2023,EA/AM H5N1,Bald eagle,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository
+North Dakota,Divide,8/31/2023,EA H5N1,Bald eagle,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository
+Mississippi,Harrison,8/31/2023,EA H5N1,Bald eagle,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository
+Louisiana,Caddo,8/31/2023,EA H5N1,Bald eagle,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository
+South Dakota,Butte,8/31/2023,EA H5N1,Bald eagle,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository
+North Dakota,Towner,8/31/2023,EA/AM H5N1,Bald eagle,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository
+South Dakota,Brown,8/31/2023,EA H5,Golden eagle,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository
+South Dakota,Charles Mix,8/31/2023,EA/AM H5N1,Bald eagle,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository
+Idaho,Lemhi,8/31/2023,EA H5N1,Bald eagle,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository
 Alaska,Bethel,8/25/2023,EA H5N1,Glaucous gull,Wild bird,Morbidity/Mortality,USFWS
 Alaska,North Slope,8/25/2023,EA H5N1,Short-tailed shearwater,Wild bird,Morbidity/Mortality,USFWS
 Alaska,North Slope,8/25/2023,EA H5N1,Short-tailed shearwater,Wild bird,Morbidity/Mortality,USFWS
@@ -5178,7 +5178,7 @@ Indiana,Boone,3/21/2023,EA H5N1,Bald eagle,Wild bird,Morbidity/Mortality,USFWS N
 Florida,Pinellas,3/21/2023,EA H5N1,Bald eagle,Wild bird,Morbidity/Mortality,USFWS National Eagle Repository
 New York,Chemung,3/21/2023,EA H5N1,Red-tailed hawk,Wild bird,Morbidity/Mortality,NY DEC
 New York,Tompkins,3/21/2023,EA/AM H5N1,Canada goose,Wild bird,Morbidity/Mortality,NY DEC
-Arizona, Maricopa,3/21/2023,EA H5N1,Cooper's hawk,Wild bird,Morbidity/Mortality,AZ GFD
+Arizona,Maricopa,3/21/2023,EA H5N1,Cooper's hawk,Wild bird,Morbidity/Mortality,AZ GFD
 Iowa,Winneshiek,3/21/2023,EA/AM H5N1,Red-tailed hawk,Wild bird,Morbidity/Mortality,IA DNR
 Ohio,Stark,3/20/2023,EA/AM H5N1,Canada goose,Wild bird,Morbidity/Mortality,ODNR
 Ohio,Stark,3/20/2023,EA/AM H5N1,Canada goose,Wild bird,Morbidity/Mortality,ODNR
