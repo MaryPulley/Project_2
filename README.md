@@ -4,7 +4,7 @@ AI Bootcamp Project 2
 Bird flu is currently spreading in the US, posing a significant **public health risk** due to its **zoonotic potential** and causing economic damage to the poultry industry. This project aims to **analyze the severity of different bird flu strains using genomic data**.
 
 ### **Key Research Questions:**
-1. **Which strains of bird flu are the most dangerous?**
+1. **Based on the strain of avian flu, can we predict how long an outbreak will last?**
 2. **How does bird flu compare to other flu outbreaks in the United States?**
 
 ### Why Machine Learning?
