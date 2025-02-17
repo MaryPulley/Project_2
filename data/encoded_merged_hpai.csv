@@ -1755,11 +1755,11 @@ Sacramento,California,2024-04-19,23,,0.0,,2,,2,1,Skunk (unidentified),12,,3,5
 Sacramento,California,2024-08-01,23,,0.0,,2,,2,3,,7,Peregrine falcon,2,4
 Sacramento,California,2024-11-02,15,Turkey,48300.0,48300.0,2,,2,3,,12,,3,5
 Sacramento,California,2024-12-04,15,Turkey,61200.0,61200.0,1,Cattle,1,3,,12,,3,5
+Sacramento,California,2024-12-18,23,,0.0,,2,,2,2,Bengal tiger,12,,3,5
+Sacramento,California,2024-12-23,23,,0.0,,2,,2,1,Serval,12,,3,5
 Sacramento,California,2024-12-27,4,Chicken,153800.0,153800.0,1,Cattle,1,3,,12,,3,5
 Sacramento,California,2024-12-27,4,Chicken,153800.0,153800.0,1,Cattle,1,3,,12,,3,5
 Sacramento,California,2024-12-27,4,Chicken,153800.0,153800.0,1,Cattle,1,3,,12,,3,5
-Sacramento<sup>1</sup>,California,2024-12-18,23,,0.0,,2,,2,2,Bengal tiger,12,,3,5
-Sacramento<sup>1</sup>,California,2024-12-23,23,,0.0,,2,,2,1,Serval,12,,3,5
 San Benito,California,2022-10-19,23,,0.0,,2,,2,3,,7,Canada goose,2,4
 San Benito,California,2023-11-30,5,Duck,5000.0,5000.0,2,,2,3,,12,,3,5
 San Bernardino,California,2022-11-08,23,,0.0,,2,,2,3,,2,Canada goose,2,4
@@ -2985,11 +2985,11 @@ Denver,Colorado,2024-08-30,23,,0.0,,2,,2,3,,2,Mallard,2,0
 Denver,Colorado,2024-09-05,23,,0.0,,2,,2,3,,2,American crow,0,4
 Denver,Colorado,2024-09-05,23,,0.0,,2,,2,3,,0,Mallard,2,0
 Denver,Colorado,2024-11-27,23,,0.0,,2,,2,3,,2,Bald eagle,0,4
-Denver<sup>1</sup>,Colorado,2024-12-19,23,,0.0,,2,,2,1,Tiger,12,,3,5
-Denver<sup>1</sup>,Colorado,2024-12-23,23,,0.0,,2,,2,1,Mountain lion,12,,3,5
-Denver<sup>1</sup>,Colorado,2024-12-26,23,,0.0,,2,,2,1,Tiger,12,,3,5
-Denver<sup>1</sup>,Colorado,2024-12-26,23,,0.0,,2,,2,0,African lion,12,,3,5
-Denver<sup>1</sup>,Colorado,2024-12-26,23,,0.0,,2,,2,1,Fox sp.,12,,3,5
+Denver,Colorado,2024-12-19,23,,0.0,,2,,2,1,Tiger,12,,3,5
+Denver,Colorado,2024-12-23,23,,0.0,,2,,2,1,Mountain lion,12,,3,5
+Denver,Colorado,2024-12-26,23,,0.0,,2,,2,1,Tiger,12,,3,5
+Denver,Colorado,2024-12-26,23,,0.0,,2,,2,0,African lion,12,,3,5
+Denver,Colorado,2024-12-26,23,,0.0,,2,,2,1,Fox,12,,3,5
 Douglas,Colorado,2022-10-25,23,,0.0,,2,,2,3,,2,Mallard,0,4
 Douglas,Colorado,2022-10-25,23,,0.0,,2,,2,3,,2,Bald eagle,0,4
 Douglas,Colorado,2022-12-07,23,,0.0,,2,,2,3,,2,Snow goose,0,4
@@ -4611,7 +4611,7 @@ Ada,Idaho,2023-04-28,23,,0.0,,2,,2,3,,7,Barn owl,2,4
 Ada,Idaho,2023-04-28,23,,0.0,,2,,2,3,,7,Barn owl,2,4
 Ada,Idaho,2024-03-13,23,,0.0,,2,,2,2,Striped skunk,12,,3,5
 Ada,Idaho,2024-09-05,23,,0.0,,2,,2,3,,7,Great horned owl,2,4
-Ada<sup>1</sup>,Idaho,2024-12-10,23,,0.0,,2,,2,2,Amur tiger,12,,3,5
+Ada,Idaho,2024-12-10,23,,0.0,,2,,2,2,Amur tiger,12,,3,5
 Adams,Idaho,2022-06-22,23,,0.0,,2,,2,1,Striped skunk,12,,3,5
 Adams,Idaho,2022-06-22,23,,0.0,,2,,2,1,Striped skunk,12,,3,5
 Bannock,Idaho,2022-09-30,23,,0.0,,2,,2,3,,2,Canada goose,2,4
@@ -9024,6 +9024,7 @@ Saline,Missouri,2024-12-16,23,,0.0,,2,,2,3,,0,Mallard,2,2
 Saline,Missouri,2025-01-16,23,,0.0,,2,,2,3,,0,Mallard,2,2
 Scott,Missouri,2022-04-26,23,,0.0,,2,,2,3,,0,Bald eagle,2,4
 Shannon,Missouri,2024-09-05,23,,0.0,,2,,2,3,,7,Snow goose,2,4
+St Charles,Missouri,2024-08-09,23,,0.0,,2,,2,0,Red fox,12,,3,5
 St. Charles,Missouri,2022-04-26,23,,0.0,,2,,2,3,,7,Canada goose,2,4
 St. Charles,Missouri,2022-10-25,23,,0.0,,2,,2,3,,7,Canada goose,2,4
 St. Charles,Missouri,2022-10-25,23,,0.0,,2,,2,3,,7,Canada goose,2,4
@@ -9032,7 +9033,6 @@ St. Charles,Missouri,2022-12-13,23,,0.0,,2,,2,3,,7,Cooper's hawk,2,4
 St. Charles,Missouri,2024-03-19,23,,0.0,,2,,2,3,,7,Canada goose,2,4
 St. Charles,Missouri,2024-03-19,23,,0.0,,2,,2,3,,2,Canada goose,2,4
 St. Charles,Missouri,2024-03-19,23,,0.0,,2,,2,3,,7,Canada goose,2,4
-St. Charles,Missouri,2024-08-09,23,,0.0,,2,,2,0,Red fox,12,,3,5
 St. Clair,Missouri,2022-04-26,23,,0.0,,2,,2,3,,7,Bald eagle,2,4
 St. Louis,Missouri,2022-03-10,23,,0.0,,2,,2,3,,2,Hooded merganser,2,4
 St. Louis,Missouri,2022-04-26,23,,0.0,,2,,2,3,,7,Canada goose,2,4
@@ -9453,7 +9453,7 @@ York,Nebraska,2022-10-18,17,Pheasant,34900.0,34900.0,2,,2,3,,12,,3,5
 York,Nebraska,2022-11-21,23,,0.0,,2,,2,3,,7,House sparrow,2,4
 Carson City,Nevada,2022-07-07,21,Chicken,40.0,40.0,2,,2,3,,12,,3,5
 Carson City,Nevada,2022-10-25,23,,0.0,,2,,2,3,,2,Great horned owl,2,4
-Carson City<sup>1</sup>,Nevada,2024-12-30,23,,0.0,,2,,2,1,Mountain lion,12,,3,5
+Carson City,Nevada,2024-12-30,23,,0.0,,2,,2,1,Mountain lion,12,,3,5
 Churchill,Nevada,2022-08-17,23,,0.0,,2,,2,3,,2,Mallard,2,3
 Churchill,Nevada,2022-08-17,23,,0.0,,2,,2,3,,2,Mallard,2,3
 Churchill,Nevada,2022-08-17,23,,0.0,,2,,2,3,,2,Mallard,2,3
@@ -10726,6 +10726,7 @@ Valencia,New Mexico,2023-03-31,23,,0.0,,2,,2,2,Striped skunk,12,,3,5
 ,New Mexico,2024-08-28,23,,0.0,,1,Cattle,1,3,,12,,3,5
 Albany,New York,2022-04-28,23,,0.0,,2,,2,3,,7,Great horned owl,2,4
 Albany,New York,2022-05-02,23,,0.0,,2,,2,3,,7,Bald eagle,2,4
+Albany,New York,2022-09-27,23,,0.0,,2,,2,1,Amur Leopard,12,,3,5
 Albany,New York,2022-09-28,23,,0.0,,2,,2,3,,2,Mallard,2,4
 Albany,New York,2022-09-28,23,,0.0,,2,,2,3,,2,Mallard,2,4
 Albany,New York,2022-09-28,23,,0.0,,2,,2,3,,7,Mallard,2,4
@@ -10753,7 +10754,6 @@ Albany,New York,2024-08-01,23,,0.0,,2,,2,3,,7,Great horned owl,2,4
 Albany,New York,2024-09-17,23,,0.0,,2,,2,3,,7,Canada goose,2,4
 Albany,New York,2025-01-03,23,,0.0,,2,,2,3,,2,American crow,2,4
 Albany,New York,2025-01-21,23,,0.0,,2,,2,0,Eastern gray squirrel,12,,3,5
-Albany<sup>1</sup>,New York,2022-09-27,23,,0.0,,2,,2,1,Amur Leopard,12,,3,5
 Allegany,New York,2024-03-20,23,,0.0,,2,,2,3,,7,Bald eagle,2,4
 Bronx,New York,2022-09-21,23,,0.0,,2,,2,3,,2,Pelican (unidentified),0,4
 Bronx,New York,2022-09-23,23,,0.0,,2,,2,3,,2,Peafowl (unidentified),0,4
@@ -11124,8 +11124,8 @@ Seneca,New York,2024-12-17,23,,0.0,,2,,2,3,,1,Northern pintail,2,2
 Seneca,New York,2024-12-17,23,,0.0,,2,,2,3,,1,Mallard,2,2
 Seneca,New York,2024-12-17,23,,0.0,,2,,2,3,,0,Mallard,2,2
 St Lawrence,New York,2022-05-16,23,,0.0,,2,,2,1,Red fox,12,,3,5
+St Lawrence,New York,2022-05-16,23,,0.0,,2,,2,1,Red fox,12,,3,5
 St. Lawrence,New York,2022-04-19,23,,0.0,,2,,2,3,,7,Merganser (unidentified),2,4
-St. Lawrence,New York,2022-05-16,23,,0.0,,2,,2,1,Red fox,12,,3,5
 St. Lawrence,New York,2022-06-29,23,,0.0,,2,,2,3,,7,Turkey vulture,2,4
 St. Lawrence,New York,2022-06-29,23,,0.0,,2,,2,3,,7,Turkey vulture,2,4
 St. Lawrence,New York,2022-06-29,23,,0.0,,2,,2,3,,7,Turkey vulture,2,4

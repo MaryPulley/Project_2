@@ -169,3 +169,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+data/corrected_clustering_hpai.csv
+processed_data_with_charts_v2.ipynb
+clustering_affected_species_outbreakpatterns.ipynb

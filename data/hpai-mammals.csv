@@ -42,21 +42,21 @@ California,Los Angeles,12/31/2024,EA H5N1,Domestic cat
 California,Los Angeles,12/31/2024,EA H5N1,Domestic cat
 Alaska,Juneau,12/30/2024,EA H5,Ermine
 Colorado,Larimer,12/30/2024,EA H5,Bobcat
-Nevada,Carson City<sup>1</sup>,12/30/2024,EA H5N1,Mountain lion
+Nevada,Carson City,12/30/2024,EA H5N1,Mountain lion
 California,Los Angeles,12/27/2024,EA/AM H5N1,Domestic cat
-Colorado,Denver<sup>1</sup>,12/26/2024,EA H5N1,Tiger
-Colorado,Denver<sup>1</sup>,12/26/2024,EA H5,African lion
-Colorado,Denver<sup>1</sup>,12/26/2024,EA H5N1,Fox sp.
+Colorado,Denver,12/26/2024,EA H5N1,Tiger
+Colorado,Denver,12/26/2024,EA H5,African lion
+Colorado,Denver,12/26/2024,EA H5N1,Fox
 Washington,Mason,12/24/2024,EA H5N1,Serval
 Florida,Brevard,12/23/2024,EA H5N1,Bottlenose dolphin
 Florida,Brevard,12/23/2024,EA H5N1,Bottlenose dolphin
 California,Los Angeles,12/23/2024,EA H5N1,Domestic cat
-California,Sacramento<sup>1</sup>,12/23/2024,EA H5N1,Serval
-Colorado,Denver<sup>1</sup>,12/23/2024,EA H5N1,Mountain lion
+California,Sacramento,12/23/2024,EA H5N1,Serval
+Colorado,Denver,12/23/2024,EA H5N1,Mountain lion
 Oregon,Washington,12/19/2024,EA H5N1,Domestic cat
-Colorado,Denver<sup>1</sup>,12/19/2024,EA H5N1,Tiger
+Colorado,Denver,12/19/2024,EA H5N1,Tiger
 Minnesota,Morrison,12/18/2024,EA H5N1,Domestic cat
-California,Sacramento<sup>1</sup>,12/18/2024,EA/AM H5N1,Bengal tiger
+California,Sacramento,12/18/2024,EA/AM H5N1,Bengal tiger
 Washington,Clallam,12/18/2024,EA H5,Mountain lion
 California,Fresno,12/17/2024,EA H5N1,Domestic cat
 Washington,Mason,12/16/2024,EA H5N1,Bobcat
@@ -77,7 +77,7 @@ Utah,Cache,12/13/2024,EA/AM H5N1,Domestic cat
 Arizona,Maricopa,12/12/2024,EA H5,Mountain lion
 Massachusetts,Essex,12/11/2024,EA/AM H5N1,Harbor seal
 Washington,King,12/10/2024,EA H5,Raccoon
-Idaho,Ada<sup>1</sup>,12/10/2024,EA/AM H5N1,Amur tiger
+Idaho,Ada,12/10/2024,EA/AM H5N1,Amur tiger
 California,San Bernardino,12/10/2024,EA H5N1,Domestic cat
 Washington,Clallam,12/6/2024,EA H5,Mountain lion
 Washington,Franklin,12/6/2024,EA H5,Coyote
@@ -97,7 +97,7 @@ Utah,Washington,8/20/2024,EA H5N1,Striped skunk
 Utah,Washington,8/20/2024,EA H5N1,Striped skunk
 Utah,Washington,8/20/2024,EA H5N1,Striped skunk
 Montana,McCone,8/20/2024,EA/AM H5N1,Striped skunk
-Missouri,St. Charles,8/9/2024,EA H5,Red fox
+Missouri,St Charles,8/9/2024,EA H5,Red fox
 Colorado,Larimer,7/29/2024,EA H5N1,Domestic cat
 Colorado,Weld,7/23/2024,EA H5N1,House mouse
 Colorado,Weld,7/23/2024,EA H5N1,House mouse
@@ -408,7 +408,7 @@ New York,Cayuga,10/6/2022,EA/AM H5N1,Red Fox
 New York,Cayuga,10/6/2022,EA/AM H5N1,Red Fox
 New York,Cayuga,10/6/2022,EA/AM H5N1,Red Fox
 New York,Cayuga,10/6/2022,EA/AM H5N1,Red Fox
-New York,Albany<sup>1</sup>,9/27/2022,EA H5N1,Amur Leopard
+New York,Albany,9/27/2022,EA H5N1,Amur Leopard
 Florida,Dixie,8/17/2022,EA/AM H5N1,Bottlenose dolphin
 Maine,York,8/15/2022,EA H5N1,Harbor seal
 Idaho,Ada,8/3/2022,EA H5N1,Skunk (unidentified)
@@ -467,7 +467,7 @@ New York,Niagara,5/19/2022,EA H5N1,Red fox
 Iowa,Cedar,5/18/2022,EA H5N1,Red fox
 New York,Tompkins,5/16/2022,EA H5N1,Red fox
 New York,St Lawrence,5/16/2022,EA H5N1,Red fox
-New York,St. Lawrence,5/16/2022,EA H5N1,Red fox
+New York,St Lawrence,5/16/2022,EA H5N1,Red fox
 New York,Erie,5/16/2022,EA H5N1,Red fox
 New York,Erie,5/16/2022,EA H5N1,Red fox
 Wisconsin,Jefferson,5/13/2022,EA H5N1,Red fox
