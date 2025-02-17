@@ -82,6 +82,10 @@ Outbreak Occurred (Binary: 1 = Outbreak, 0 = No Outbreak)
 ### Feature importance:
 *Add image*
 
+### Expected Outcomes:
+1. A predictive model capable of estimating H5N1 outbreak risk in specific regions.
+2. Insights into how environmental and host factors contribute to H5N1 outbreaks.
+3. Potential applications in surveillance and early warning systems
 
 
 
