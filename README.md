@@ -105,6 +105,8 @@ This data coincides with the 3 seasons in a sampling year
 
 ![image](Data/feature_importance.png)
 
+**Month** is a major predictor of the outbreak data.
+
 ### Model Selection [Classification Model : Outbreak prediction]
 
 1. Logistic Regression
