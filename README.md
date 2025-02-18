@@ -72,16 +72,20 @@ Outbreak Occurred (Binary: 1 = Outbreak, 0 = No Outbreak)
 *Flock Type* (Backyard, commercial, wild populations)
 *Flock Size* (Higher density may increase transmission risk)
 
-**Data Correlation Heat map**
+### Features Correlation Heat map
+
 ![image](Data/hpai_heatmap.png)
 
+
 ### Key Observations from the Correlation Matrix:
+
 1. Outbreak Risk has the highest correlation with ***Month*** (0.59), indicating that the month (likely seasonality) plays a significant role in predicting the outbreaks.
 2. ***Flock Type*** and ***Latitude*** have a moderate positive correlation (0.57), indicating that certain types of flocks might be located at specific latitudes.
 3. Flock Type and Latitude have a moderate positive correlation (0.57), indicating that certain types of flocks might be located at specific latitudes. 
 4. The ***HPAI Strain_x*** (Wild bird strain) has a moderate positive correlation with the ***Longitude*** which means certain bird species are more common in specific longitudinal zones. This could be due to migratory flyways. 
 
 ### Feature importance:
+
 ![image](Data/feature_importance.png)
 
 
