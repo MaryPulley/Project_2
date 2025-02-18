@@ -95,6 +95,11 @@ The HPAI Strain_x (Wild bird strain) has a moderate positive correlation with th
 
 ![image](Data/feature_importance.png)
 
+### Model Selection [Classification Model : Outbreak prediction]
+
+1. Logistic Regression
+2. Random Forest Classifier
+
 
 ### Expected Outcomes:
 1. A predictive model capable of estimating H5N1 outbreak risk in specific regions.
