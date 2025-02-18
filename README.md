@@ -46,7 +46,7 @@ We have uploaded several datasets and processing notebooks that document each st
 | **Data_Preprocessing_Round_2.ipynb** | **Advanced data preprocessing & transformation** including missing value imputation and normalization. |
 
 
-## 📌 Additional Research
+## 📌 H5N1 Outbreak Prediction (Binary classification model)
 ### Did an H5N1 outbreak occur at a specific location and time?
 
 
