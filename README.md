@@ -91,6 +91,16 @@ Flock Type and Latitude have a moderate positive correlation, indicating that ce
 #### HPAI Wildbird Strain and Latitude (0.43 correlation):
 The HPAI Strain_x (Wild bird strain) has a moderate positive correlation with the Longitude which means certain bird species are specific to that longitudinal locations. 
 
+### Month distribution of the Outbreak
+
+![image](Data/hpao_month_distribution.png)
+
+This data coincides with the 3 seasons in a sampling year
+
+1. We see a pike in May, which is the breeding month.
+2. Pike in November which coincides with fall migration.
+3. December and January Months which are the wintering months
+
 ### Feature importance:
 
 ![image](Data/feature_importance.png)
