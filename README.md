@@ -79,10 +79,17 @@ Outbreak Occurred (Binary: 1 = Outbreak, 0 = No Outbreak)
 
 ### Key Observations from the Correlation Matrix:
 
-1. Outbreak Risk has the highest correlation with ***Month*** (0.59), indicating that the month (likely seasonality) plays a significant role in predicting the outbreaks.
-2. ***Flock Type*** and ***Latitude*** have a moderate positive correlation (0.57), indicating that certain types of flocks might be located at specific latitudes.
-3. ***HPAI Mammal Strain*** and ***Mammal Species*** have a high positive correlation (0.891854), which suggests that specific mammal species are more prone to certain HPAI strains.
-4. The ***HPAI Strain_x*** (Wild bird strain) has a moderate positive correlation with the ***Longitude*** which means certain bird species are more common in specific longitudinal zones. This could be due to migratory flyways. 
+#### Month and Outbreak Occurred (0.55 correlation):
+A moderate positive correlation suggests that outbreaks may occur more frequently during specific months, potentially correlating with seasonal patterns (e.g., migratory periods).
+
+#### HPAI Mammal Strain and Mammal Species (0.83 correlation):
+HPAI Mammal Strain and Mammal Species have a high positive correlation (0.83), which suggests that that specific mammal species are more prone to certain HPAI strains.
+
+#### Flock Type and Latitude (0.55 correlation):
+Flock Type and Latitude have a moderate positive correlation, indicating that certain types of flocks might be located at specific latitudes.
+
+#### HPAI Wildbird Strain and Latitude (0.43 correlation):
+The HPAI Strain_x (Wild bird strain) has a moderate positive correlation with the Longitude which means certain bird species are specific to that longitudinal locations. 
 
 ### Feature importance:
 
