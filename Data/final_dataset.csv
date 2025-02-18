@@ -1,4 +1,4 @@
-,State,County,Outbreak Date,HPAI Wildbird Strain,Bird Species,WOAH Classification,Year,Month,Day,FIPS Code,Latitude,Longitude,Flock Type,Flock Size,HPAI Flock Strain,Mammal Species,Temp,Precipitation,Outbreak Occured
+,State,County,Outbreak Date,HPAI Wildbird Strain,Bird Species,WOAH Classification,Year,Month,Day,FIPS Code,Latitude,Longitude,Flock Type,Flock Size,HPAI Mammal Strain,Mammal Species,Temp,Precipitation,Outbreak Occured
 0,0,85,0,5,219,3,0.0,0.0,0.0,1001.0,32.5349,-86.6427,23,0.0,2,37,58.7,25.03,0
 1,0,92,2023-03-01 00:00:00,3,17,2,2023.0,3.0,1.0,1003.0,30.7277,-87.7226,23,0.0,2,37,58.7,25.03,1
 2,0,92,2023-03-01 00:00:00,3,17,2,2023.0,3.0,1.0,1003.0,30.7277,-87.7226,23,0.0,2,37,58.7,25.03,1
