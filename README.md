@@ -71,16 +71,17 @@ Outbreak Occurred (Binary: 1 = Outbreak, 0 = No Outbreak)
 *Flock Size* (Higher density may increase transmission risk)
 
 **Data Correlation Heat map**
-*Add image*
+![image](Data/hpai_heatmap.png)
 
 ### Key Observations from the Correlation Matrix:
 1. Outbreak Risk has the highest correlation with ***Month*** (0.59), indicating that the month (likely seasonality) plays a significant role in predicting the outbreaks.
 2. ***Flock Type*** and ***Latitude*** have a moderate positive correlation (0.57), indicating that certain types of flocks might be located at specific latitudes.
-3. There is a very ***weak*** correlation between the mammals and the flock type or bird species indicating less possibility of transmission between them. 
-4. The ***HPAI Strain_x*** (Wild bird strain) has a moderate positive correlation with the ***Latitude*** which means certain bird species are specific to that latitude. 
+3. Flock Type and Latitude have a moderate positive correlation (0.57), indicating that certain types of flocks might be located at specific latitudes. 
+4. The ***HPAI Strain_x*** (Wild bird strain) has a moderate positive correlation with the ***Longitude*** which means certain bird species are more common in specific longitudinal zones. This could be due to migratory flyways. 
 
 ### Feature importance:
-*Add image*
+![image](Data/feature_importance.png)
+
 
 ### Expected Outcomes:
 1. A predictive model capable of estimating H5N1 outbreak risk in specific regions.
