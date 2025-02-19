@@ -4,8 +4,8 @@ AI Bootcamp Project 2
 Bird flu is currently spreading in the US, posing a significant **public health risk** due to its **zoonotic potential** and causing economic damage to the poultry industry. This project aims to **analyze the severity of different bird flu strains using genomic data**.
 
 ### **Key Research Questions:**
-1. **Based on the strain of avian flu, can we predict how long an outbreak will last?**
-2. **How does bird flu compare to other flu outbreaks in the United States?**
+1. **Can we predict future outbreaks of Avian flu based on historic data using a times series model?**
+2. **Can we group related outbreaks by their qualities across the United States?**
 
 ### Why Machine Learning?
 Machine learning helps us process large datasets efficiently while improving accuracy. We will apply:
@@ -45,7 +45,7 @@ We have uploaded several datasets and processing notebooks that document each st
 | **Data_Investigation.ipynb** | **Initial data exploration and cleaning** with visualization of infection trends. |
 | **Data_Preprocessing_Round_2.ipynb** | **Advanced data preprocessing & transformation** including missing value imputation and normalization. |
 
-
+## 📌 PCA Clustering
 ## 📌 H5N1 Outbreak Prediction (Binary classification model)
 ### Did an H5N1 outbreak occur at a specific location and time?
 
@@ -124,7 +124,7 @@ This data coincides with the 3 seasons in a sampling year
 2. Insights into how environmental and host factors contribute to H5N1 outbreaks.
 3. Potential applications in surveillance and early warning systems
 
-
+## 📌 ARIMA Time Series Model
 
 ## 📌 Project Team
 **Team Name:** The Flockbusters 🦠🐦
@@ -139,3 +139,8 @@ Please see the branches for additional work, contributions and research
 - **Katie Craig**
 
 **TA:** Revati
+
+## References
+* https://www.cdc.gov/bird-flu/situation-summary/index.html
+* https://gisaid.org/](https://gisaid.org/
+* https://www.who.int/](https://www.who.int/
