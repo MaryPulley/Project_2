@@ -53,6 +53,12 @@ We have uploaded several datasets and processing notebooks that document each st
 **Objective:**
 Our objective was to develop a machine learning model to predict whether an H5N1 outbreak will occur based on spatial, temporal, and environmental factors.
 
+**Datasets:**
+1. Current Outbreak Data on Wild birds, Commercial Flock and Mammals
+2. US county data with Latitudes and Longitudes
+3. US Weather data based on State and County
+
+
 **Target Variable:**
 Outbreak Occurred (Binary: 1 = Outbreak, 0 = No Outbreak)
 
