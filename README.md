@@ -45,11 +45,19 @@ We have uploaded several datasets and processing notebooks that document each st
 | **Data_Investigation.ipynb** | **Initial data exploration and cleaning** with visualization of infection trends. |
 | **Data_Preprocessing_Round_2.ipynb** | **Advanced data preprocessing & transformation** including missing value imputation and normalization. |
 
-## 📌 Additional Research
+
+## 📌 H5N1 Outbreak Prediction (Binary classification model)
 ### Did an H5N1 outbreak occur at a specific location and time?
+
 
 **Objective:**
 Our objective was to develop a machine learning model to predict whether an H5N1 outbreak will occur based on spatial, temporal, and environmental factors.
+
+**Datasets:**
+1. Current Outbreak Data on Wild birds, Commercial Flock and Mammals
+2. US county data with Latitudes and Longitudes
+3. US Weather data based on State and County
+
 
 **Target Variable:**
 Outbreak Occurred (Binary: 1 = Outbreak, 0 = No Outbreak)
@@ -70,17 +78,46 @@ Outbreak Occurred (Binary: 1 = Outbreak, 0 = No Outbreak)
 *Flock Type* (Backyard, commercial, wild populations)
 *Flock Size* (Higher density may increase transmission risk)
 
-**Data Correlation Heat map**
-*Add image*
+### Features Correlation Heat map
+
+![image](Data/hpai_heatmap.png)
+
 
 ### Key Observations from the Correlation Matrix:
-1. Outbreak Risk has the highest correlation with ***Month*** (0.59), indicating that the month (likely seasonality) plays a significant role in predicting the outbreaks.
-2. ***Flock Type*** and ***Latitude*** have a moderate positive correlation (0.57), indicating that certain types of flocks might be located at specific latitudes.
-3. There is a very ***weak*** correlation between the mammals and the flock type or bird species indicating less possibility of transmission between them. 
-4. The ***HPAI Strain_x*** (Wild bird strain) has a moderate positive correlation with the ***Latitude*** which means certain bird species are specific to that latitude. 
+
+#### Month and Outbreak Occurred (0.55 correlation):
+A moderate positive correlation suggests that outbreaks may occur more frequently during specific months, potentially correlating with seasonal patterns (e.g., migratory periods).
+
+#### HPAI Mammal Strain and Mammal Species (0.83 correlation):
+HPAI Mammal Strain and Mammal Species have a high positive correlation (0.83), which suggests that that specific mammal species are more prone to certain HPAI strains.
+
+#### Flock Type and Latitude (0.55 correlation):
+Flock Type and Latitude have a moderate positive correlation, indicating that certain types of flocks might be located at specific latitudes.
+
+#### HPAI Wildbird Strain and Latitude (0.43 correlation):
+The HPAI Strain_x (Wild bird strain) has a moderate positive correlation with the Longitude which means certain bird species are specific to that longitudinal locations. 
+
+### Month distribution of the Outbreak
+
+![image](Data/hpao_month_distribution.png)
+
+This data coincides with the 3 seasons in a sampling year
+
+1. We see a pike in May, which is the breeding month.
+2. Pike in November which coincides with fall migration.
+3. December and January Months which are the wintering months
 
 ### Feature importance:
-*Add image*
+
+![image](Data/feature_importance.png)
+
+**Month** is a major predictor of the outbreak data.
+
+### Model Selection [Classification Model : Outbreak prediction]
+
+1. Logistic Regression
+2. Random Forest Classifier
+
 
 ### Expected Outcomes:
 1. A predictive model capable of estimating H5N1 outbreak risk in specific regions.
