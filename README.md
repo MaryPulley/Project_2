@@ -38,14 +38,93 @@ We have uploaded several datasets and processing notebooks that document each st
 
 | File Name | Description |
 |-----------|-------------|
-| **co-est2023-pop-updated.csv** | Population estimates used for regional flu prevalence analysis. Sourced from **Data.gov**. |
-| **commercial-backyard-flocks.csv** | Data on flu outbreaks in **commercial vs backyard poultry flocks**, extracted from **CDC reports**. |
+| **HPAI Detections in Mammals.csv** | H5N1 casses in Mammals
+| **backyard_flock_old.csv** | Data on flu outbreaks in **commercial vs backyard poultry flocks**, extracted from **CDC reports**. |
 | **hpai-wild-birds.csv** | High Pathogenic Avian Influenza (HPAI) cases in **wild birds**, sourced from WHO's open-access dataset. |
-| **mn_analysis_prj2.ipynb** | **Machine learning analysis & feature engineering**, processing structured influenza datasets. |
-| **Data_Investigation.ipynb** | **Initial data exploration and cleaning** with visualization of infection trends. |
-| **Data_Preprocessing_Round_2.ipynb** | **Advanced data preprocessing & transformation** including missing value imputation and normalization. |
+| **weather.csv** | Weather realted datasets. |
+| **proj2_birdflu_analysis.ipynb** | The main project notebook. |
+| **US Counties.csv** | US State and County dataset with Latitude and Longitude values |
 
-## 📌 PCA Clustering
+## 📌 H5N1: PCA and Clustering analysis
+
+The analysis uses Principal Component Analysis (PCA) and K-means clustering to identify patterns and clusters in the data.
+
+1. **Feature Preparation**: The features used for clustering include temperature, temperature anomaly, precipitation, Palmer Z-Index, the number of wild bird outbreaks, livestock outbreaks, mammal outbreaks, the total number of birds affected, and the total flock size. These features are scaled using StandardScaler to ensure they are on a similar scale.
+
+2. **Elbow Analysis**: An elbow analysis is performed to determine the optimal number of clusters. The inertia (within-cluster sum of squares) is plotted against the number of clusters (k), and the "elbow" in the plot is used to identify the appropriate number of clusters.
+
+3. **PCA and K-means Clustering**: Based on the elbow analysis, the optimal number of clusters is determined to be 4. PCA is then applied to the scaled features to reduce the dimensionality, and K-means clustering is performed on the transformed data to identify the 4 clusters.
+
+## **Principal Component Analysis (PCA) and Clustering Summary**  
+
+## **PCA Overview**  
+
+### **PCA1 (First Principal Component):**  
+- Represents the largest source of variation in the data.  
+- Strongly influenced by outbreak severity (`Birds Affected`, `Flock Size`).  
+- States further to the right on the plot have larger outbreaks.  
+
+### **PCA2 (Second Principal Component):**  
+- Represents the second-largest source of variation.  
+- Heavily influenced by temperature and precipitation.  
+- States higher up on the plot tend to have higher temperatures and precipitation.  
+
+---
+
+## **Cluster Breakdown**  
+
+### **Cluster 0: Southern/Southeastern States**  
+- **States:** Alabama, Arkansas, Florida, Georgia, Kentucky, Louisiana, Mississippi, Missouri, North Carolina, Oklahoma, Oregon, Rhode Island, South Carolina, Tennessee, Texas, Virginia  
+- **Characteristics:**  
+  - Includes **Texas** and most southeastern states.  
+  - **Moderate outbreak sizes:** ~935,000 birds affected.  
+  - **Highest average temperatures and precipitation.**  
+  - **Moderate number of wild bird outbreaks.**  
+
+---
+
+### **Cluster 1: Major Outbreak States**  
+- **States:** California, Iowa, Ohio  
+- **Characteristics:**  
+  - Characterized by **massive outbreaks** (~24.8 million birds affected on average).  
+  - **Highest number of both wild bird and livestock outbreaks.**  
+  - **Moderate temperatures** with **varied precipitation.**  
+
+---
+
+### **Cluster 2: Northern States**  
+- **States:** Colorado, Maine, Michigan, Minnesota, Montana, New Mexico, New York, North Dakota, South Dakota, Vermont, Washington, Wisconsin  
+- **Characteristics:**  
+  - Includes **northern states with colder climates.**  
+  - **Moderate to large outbreaks:** ~3.2 million birds affected.  
+  - **High number of wild bird outbreaks.**  
+  - **Lowest average temperatures.**  
+
+---
+
+### **Cluster 3: Mixed/Moderate Impact States**  
+- **States:** Arizona, Connecticut, Delaware, District of Columbia, Idaho, Illinois, Indiana, Kansas, Maryland, Massachusetts, Nebraska, Nevada, New Hampshire, New Jersey, Pennsylvania, Utah, West Virginia, Wyoming  
+- **Characteristics:**  
+  - A mix of **northeastern and central states.**  
+  - **Smaller outbreak sizes:** ~1.6 million birds affected.  
+  - **Lowest number of wild bird outbreaks.**  
+  - **Moderate temperatures** and **lower precipitation.**
+
+---  
+## **Conclusions:**  
+The identified clusters provide valuable insights into different patterns of HPAI transmission events:  
+- **Wild Bird outbreaks** typically involve small flock sizes with few birds affected.  
+- **Livestock outbreaks** involve larger flocks but show different levels of bird impact.  
+- **Flock-based outbreaks** show the highest number of affected birds.  
+
+## Analysis Results
+    1. The elbow curve helps determine the optimal number of clusters (k=4)
+    2. PCA reveals the main components of variation in the data
+    3. The clustering shows distinct patterns in HPAI outbreaks across states
+    4. Feature importance shows which variables contribute most to the patterns
+    5. The top affected states by bird count are clearly identified
+
+    
 ## 📌 H5N1 Outbreak Prediction (Binary classification model)
 ### Did an H5N1 outbreak occur at a specific location and time?
 
@@ -124,7 +203,40 @@ This data coincides with the 3 seasons in a sampling year
 2. Insights into how environmental and host factors contribute to H5N1 outbreaks.
 3. Potential applications in surveillance and early warning systems
 
-## 📌 ARIMA Time Series Model
+## 📌 Forecasting Bird Flu Outbreak - ARIMA Time Series Model
+
+The purpose of this code is to analyze the temporal patterns and characteristics of HPAI outbreaks using the provided datasets. The modeling approach focuses on time series analysis, including decomposition and feature engineering, to gain insights into the data. The key findings or conclusions of this analysis are not explicitly stated in the provided code, as it appears to be a part of a larger project or analysis.
+
+1. **Imports and Data Loading**:
+   - The code starts by importing various Python libraries for data manipulation, visualization, and time series analysis, such as Pandas, NumPy, Matplotlib, Seaborn, and statsmodels.
+   - It then loads several CSV files containing data related to HPAI outbreaks, including flocks, livestock, mammals, wild birds, and weather data.
+
+2. **Data Preprocessing**:
+   - The code converts the 'Outbreak Date' column in each dataset to a datetime format.
+   - It then aggregates the cases by date for each dataset (wild birds, mammals, livestock, and flocks) and sets the 'Outbreak Date' as the index.
+   - The datasets are resampled to a daily frequency, and missing values are filled with zeros.
+
+3. **Feature Engineering**:
+   - The code creates additional features for the time series analysis, such as day of the week, quarter, month, year, day of the year, and rolling mean and standard deviation over a 7-day window.
+
+4. **Time Series Decomposition**:
+   - The code performs time series decomposition on the aggregated datasets using the seasonal_decompose function from statsmodels.
+   - This allows the analysis of the trend, seasonality, and residual components of the time series.
+
+5. **Visualization**:
+   - The code includes several visualizations to explore the data, such as plotting the decomposed time series components for the wild birds, mammals, livestock, and flocks datasets.
+
+**Notes about models**
+
+- The notebook uses both manual ARIMA from statsmodels and auto_arima from pmdarima
+- A custom evaluation function is created to fit ARIMA models with specified orders
+- The implementation includes diagnostic tools like ACF (Autocorrelation Function) and PACF (Partial Autocorrelation Function) plots to determine appropriate model orders
+- Handles seasonality through differencing
+- Includes error metrics (MSE, MAE) for model evaluation
+- Uses visualization tools to compare forecasts with actual data
+- Implements proper time series cross-validation
+
+The ARIMA implementation follows best practices for time series forecasting, with appropriate attention to model diagnostics and validation. The models are used both for understanding the temporal patterns in bird flu outbreaks and for making short-term forecasts. Overall, this code demonstrates a comprehensive approach to exploring and understanding the dynamics of HPAI outbreaks through time series analysis and visualization techniques.
 
 ## 📌 Project Team
 **Team Name:** The Flockbusters 🦠🐦
