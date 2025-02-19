@@ -91,6 +91,9 @@ Outbreak Occurred (Binary: 1 = Outbreak, 0 = No Outbreak)
 
 ## 📌 Project Team
 **Team Name:** The Flockbusters 🦠🐦
+
+Please see the branches for additional work, contributions and research
+
 - **Christopher Davis**
 - **Matthew Ward**
 - **Caleb Kelson**
