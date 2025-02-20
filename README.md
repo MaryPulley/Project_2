@@ -92,6 +92,8 @@ This analysis tackles a binary classification problem to predict bird flu outbre
 - **Random Search** matched the **baseline accuracy** while improving **ROC-AUC**.
 - The improvements were **modest**, suggesting the **original model was already well-tuned** for this dataset.
 
+![image](Data/opt_scores.png)
+
 ### Conclusions:
 - The analysis demonstrates the effectiveness of employing different hyperparameter tuning methods to enhance the Random Forest model.
 - It highlights the significance of specific weather features in predicting bird flu outbreaks.
