@@ -216,7 +216,7 @@ Outbreak Occurred (Binary: 1 = Outbreak, 0 = No Outbreak)
 
 ## 📌 Forecasting Bird Flu Outbreak - ARIMA Time Series Model
 
-The purpose of this code is to analyze the temporal patterns and characteristics of HPAI outbreaks using the provided datasets. The modeling approach focuses on time series analysis, including decomposition and feature engineering, to gain insights into the data. The key findings or conclusions of this analysis are not explicitly stated in the provided code, as it appears to be a part of a larger project or analysis.
+The purpose of this code is to analyze the temporal patterns and characteristics of HPAI outbreaks using the provided datasets. The modeling approach focuses on time series analysis, including decomposition and feature engineering, to gain insights into the data. 
 
 1. **Imports and Data Loading**:
    - The code starts by importing various Python libraries for data manipulation, visualization, and time series analysis, such as Pandas, NumPy, Matplotlib, Seaborn, and statsmodels.
