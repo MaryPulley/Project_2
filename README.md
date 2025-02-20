@@ -132,6 +132,7 @@ The identified clusters provide valuable insights into different patterns of HPA
 **Objective:**
 Our objective was to develop a machine learning model to predict whether an H5N1 outbreak will occur based on spatial, temporal, and environmental factors.
 
+---
 **Datasets:**
 1. Current Outbreak Data on Wild birds, Commercial Flock and Mammals
 2. US county data with Latitudes and Longitudes
@@ -156,6 +157,7 @@ Outbreak Occurred (Binary: 1 = Outbreak, 0 = No Outbreak)
 *Mammal Species* (Tracking potential spillover events)
 *Flock Type* (Backyard, commercial, wild populations)
 *Flock Size* (Higher density may increase transmission risk)
+
 
 ### Features Correlation Heat map
 
@@ -194,7 +196,7 @@ This data coincides with the 3 seasons in a sampling year
 
 ### Model Selection [Classification Model : Outbreak prediction]
 
-1. Logistic Regression
+Logistic Regression
 
 ### Model performance metrics
 
@@ -208,6 +210,8 @@ The classification report showed a "Near perfect Model"
 1. A predictive model capable of estimating H5N1 outbreak risk in specific regions.
 2. Insights into how environmental and host factors contribute to H5N1 outbreaks.
 3. Potential applications in surveillance and early warning systems
+
+---
 
 ## 📌 Forecasting Bird Flu Outbreak - ARIMA Time Series Model
 
