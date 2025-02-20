@@ -195,8 +195,14 @@ This data coincides with the 3 seasons in a sampling year
 ### Model Selection [Classification Model : Outbreak prediction]
 
 1. Logistic Regression
-2. Random Forest Classifier
 
+### Model performance metrics
+
+**Confusion Matrix**
+The confusion matrix showed very few missed outbreaks 
+
+**Classification Report**
+The classification report showed a "Near perfect Model"
 
 ### Expected Outcomes:
 1. A predictive model capable of estimating H5N1 outbreak risk in specific regions.
