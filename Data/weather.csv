@@ -1,4 +1,4 @@
-County,State,Temp,Temp Anomaly (1901-2000 base period),Temp 1901-2000 Mean,Precipitation,Prec Anomaly (1901-2000 base period),Prec 1901-2000 Mean,Z Value,Z Anomaly (1901-2000 base period),Z 1901-2000 Mean
+County,State,Temp,Temp Anomaly (1901-2000 base period),Temp 1901-2000 Mean,Precipitation,Prec Anomaly (1901-2000 base period),Prec 1901-2000 Mean,Z Palmer Index,Z Anomaly (1901-2000 base period),Z 1901-2000 Mean
 Autauga ,Alabama,65.9,2,63.9,52.43,-1.3,53.73,-0.3,-0.26,-0.04
 Baldwin ,Alabama,68.7,2,66.8,60.71,-1.56,62.27,-0.23,-0.24,0.01
 Barbour ,Alabama,66.4,1.6,64.8,55.97,3.45,52.52,0.1,0.08,0.01
