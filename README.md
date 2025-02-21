@@ -257,6 +257,12 @@ The visualization  shows the forecast with the 95% confidence interval shaded in
 
 The ARIMA implementation follows best practices for time series forecasting, with appropriate attention to model diagnostics and validation. The models are used both for understanding the temporal patterns in bird flu outbreaks and for making short-term forecasts. Overall, this code demonstrates a comprehensive approach to exploring and understanding the dynamics of HPAI outbreaks through time series analysis and visualization techniques.
 
+**How to Interpret These Metrics?**
+
+The model has a moderate level of error, as RMSE and MAE indicate an average deviation of 11.7 to 13.79 cases.
+MAE is lower than RMSE, which suggests that there are some large errors, but the majority of errors are smaller.
+If MSE (190.12) is high relative to RMSE (13.79), it suggests that a few large errors (outliers) are increasing the overall squared error.
+
 
 
 ## 📌 Bird Flu Outbreak Clustering Analysis with PCA and K-Means
